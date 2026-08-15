@@ -1,0 +1,56 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# RL training outputs
+logs/
+runs/
+checkpoints/
+models/
+wandb/
+tensorboard/
+*.monitor.csv
+events.out.tfevents.*
+
+# Model and rollout artifacts
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.npz
+*.zip
+*.gif
+*.mp4
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+.dashboard/
+dashboard/frontend/node_modules/
+dashboard/frontend/dist/
+dashboard/frontend/tsconfig.tsbuildinfo
+dashboard-*-preview.png
+dashboard-preview.png
